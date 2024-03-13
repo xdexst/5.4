@@ -2,12 +2,11 @@
 #define TBOOK_H
 
 #include <string>
-using namespace std;
 
 class TBook {
 public:
-    string Name;
-    string Author;
+    std::string Name;
+    std::string Author;
     int Count;
     TBook();
 };
